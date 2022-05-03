@@ -1,0 +1,77 @@
+</html>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <!-- <meta http-equiv="refresh" content="10"> -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+</head>
+
+<body>
+
+    <form action="https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcSKjRLNZKPlKGfSZtCVBPGPLpZlVRHSptnZvzXkFpLJgqmwfxMWbkVPJFktfJGVxxgtDvWQV" method="get">
+        <table cellspacing="20">
+            <tr>
+                <th><label for="name">Your Name:</label></th>
+                <td><input type="text" name="name" required></td>
+            </tr>
+            <tr>
+                <th>Sex:</th>
+                <td>
+                    <input type="checkbox" name="type" value="Male"><label for="type">Male </label>
+                    <input type="checkbox" name="type1" value="Female"><label for="type1">Female </label>
+                    <input type="checkbox" name="type2" value="Others"><label for="type2">Others </label>
+                </td>
+            </tr>
+            <tr>
+                <th>Email:</th>
+                <td><input type="email" name="email" id="email" required></td>
+            </tr>
+            <tr>
+                <th>Phone Number:</th>
+                <td>
+                    <select name="code" id="code" required>
+                        <option value="+91">+91</option>
+                        <option value="+92">+92</option>
+                        <option value="+93">+93</option>
+                        <option value="+94">+94</option>
+                    </select>
+                    <input type="numbers" name="number" id="number" size="14" required>
+                </td>
+            </tr>
+            <tr>
+                <th>Type of Enquiry:</th>
+                <td><select name="Enquiry type" id="Enquiry type" required>
+                        <option value="Personal">Personal</option>
+                        <option value="Proffessional">Proffessional</option>
+                        <option value="Carrier">Carrier</option>
+                        <option value="Financial">Financial</option>
+                        <option value="College">College</option>
+                        <option value="Other">Other</option>
+
+
+                    </select></td>
+            </tr>
+            <tr>
+                <th>Explain Your Problem <em>(in 50 words)</em>:</th>
+                <td><textarea name="expanation" id="expanation" cols="30" rows="10" required>Type here...</textarea>
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <th><input type="submit" value="Submit"></th>
+            </tr>
+        </table>
+
+
+    </form>
+
+
+
+
+</body>
+
+</html>
